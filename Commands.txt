@@ -36,3 +36,36 @@ C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git commit -m "java project 
  create mode 100644 Java_Project/Operations/.project
  create mode 100644 Java_Project/Operations/.settings/org.eclipse.jdt.core.prefs
  create mode 100644 git
+
+
+8.Update the code
+9.Use git commands to
+o Get the updated files
+
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git log
+commit 672a356c3f8ae5d1ec5c8a9935721199895dab75 (HEAD -> master)
+Author: yuga9880 <yugapuranik17@gmail.com>
+Date:   Sat Mar 12 14:39:55 2022 +0530
+
+    updated
+
+commit 1389002877fe327534efcd1cf506c48bb516f1b6
+Author: yuga9880 <yugapuranik17@gmail.com>
+Date:   Sat Mar 12 14:27:44 2022 +0530
+
+    java project created
+
+o List the changes
+
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git diff
+diff --git a/Commands.txt b/Commands.txt
+index 4ce882a..364710f 100644
+--- a/Commands.txt
++++ b/Commands.txt
+@@ -38,7 +38,10 @@ C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git commit -m "java project
+  create mode 100644 git
+
+o Create a branch
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git branch b1
+
+
