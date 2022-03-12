@@ -1,4 +1,38 @@
+6.Create a local git repository with Java project
+
 C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git init
 Initialized empty Git repository in C:/Users/Admin/OneDrive/Desktop/YugaPuranik_080_sdm/.git/
 
 C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>
+
+7.Commit the initial code
+
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Commands.txt
+        Java_Project/
+
+nothing added to commit but untracked files present (use "git add" to track)
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git add .
+warning: LF will be replaced by CRLF in Java_Project/.gitignore.
+The file will have its original line endings in your working directory
+
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git commit -m "java project created"
+[master (root-commit) 1389002] java project created
+ 11 files changed, 89 insertions(+)
+ create mode 100644 Commands.txt
+ create mode 100644 Java_Project/.gitignore
+ create mode 100644 Java_Project/EmployeeMgm/.classpath
+ create mode 100644 Java_Project/EmployeeMgm/.project
+ create mode 100644 Java_Project/EmployeeMgm/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 Java_Project/EmployeeMgm/bin/module-info.class
+ create mode 100644 Java_Project/EmployeeMgm/src/module-info.java
+ create mode 100644 Java_Project/Operations/.classpath
+ create mode 100644 Java_Project/Operations/.project
+ create mode 100644 Java_Project/Operations/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 git
