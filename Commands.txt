@@ -99,3 +99,53 @@ C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git checkout -b b2
 Switched to a new branch 'b2'
 
 14.Add a new feature, commit and push changes to GitHub
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm> git push --set-upstream origin b2
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.34 KiB | 686.00 KiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'b2' on GitHub by visiting:
+remote:      https://github.com/yugapuranik/SDMExam/pull/new/b2
+remote:
+To https://github.com/yugapuranik/SDMExam.git
+ * [new branch]      b2 -> b2
+Branch 'b2' set up to track remote branch 'b2' from 'origin'.
+
+15.Create a pull request
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git pull origin
+
+16.Review the changes on GitHub and merge the branch into the main branch
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git diff
+diff --git a/Commands.txt b/Commands.txt
+index 35a70fc..c37b204 100644
+--- a/Commands.txt
++++ b/Commands.txt
+@@ -98,4 +98,22 @@ Already up to date.
+ C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git checkout -b b2
+ Switched to a new branch 'b2'
+
+-14.Add a new feature, commit and push changes to GitHub
+\ No newline at end of file
++14.Add a new feature, commit and push changes to GitHub
++C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm> git push --set-upstream origin b2
++Enumerating objects: 17, done.
++Counting objects: 100% (17/17), done.
++Delta compression using up to 8 threads
++Compressing objects: 100% (9/9), done.
++Writing objects: 100% (9/9), 1.34 KiB | 686.00 KiB/s, done.
++Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
++remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
++remote:
++remote: Create a pull request for 'b2' on GitHub by visiting:
++remote:      https://github.com/yugapuranik/SDMExam/pull/new/b2
++remote:
++To https://github.com/yugapuranik/SDMExam.git
++ * [new branch]      b2 -> b2
++Branch 'b2' set up to track remote branch 'b2' from 'origin'.
++
++15.Create a pull request
++C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git pull origin
