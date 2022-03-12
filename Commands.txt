@@ -1,0 +1,4 @@
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git init
+Initialized empty Git repository in C:/Users/Admin/OneDrive/Desktop/YugaPuranik_080_sdm/.git/
+
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>
