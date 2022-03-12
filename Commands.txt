@@ -68,4 +68,34 @@ index 4ce882a..364710f 100644
 o Create a branch
 C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git branch b1
 
+o Merge branch
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git merge b1
 
+10.Create a repository on GitHub
+
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git remote add origin https://github.com/yugapuranik/SDMExam.git
+
+11.Push the local changes to GitHub
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git push -u origin main
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (32/32), 4.09 KiB | 55.00 KiB/s, done.
+Total 32 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/yugapuranik/SDMExam.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+12.Pull the code from GitHub
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git pull https://github.com/yugapuranik/SDMExam.git
+From https://github.com/yugapuranik/SDMExam
+ * branch            HEAD       -> FETCH_HEAD
+Already up to date.
+
+13.Create and check out a branch
+C:\Users\Admin\OneDrive\Desktop\YugaPuranik_080_sdm>git checkout -b b2
+Switched to a new branch 'b2'
+
+14.Add a new feature, commit and push changes to GitHub
